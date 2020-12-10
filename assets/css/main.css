@@ -1996,9 +1996,11 @@ input, select, textarea {
 		display: block;
 		font-size: 0.9em;
 		font-weight: 400;
-		margin: 0 0 1em 0;
+		margin-top: 20px;
 	}
-
+	.button-spacer {
+		padding-top: 40px !important;
+	}
 	input[type="text"],
 	input[type="password"],
 	input[type="email"],
@@ -2213,7 +2215,20 @@ input, select, textarea {
 	.formerize-placeholder {
 		color: rgba(255, 255, 255, 0.5) !important;
 	}
-
+	
+	.initiallyHidden {
+		visibility: hidden;
+		position: absolute;
+		padding-left: 20px;
+		top: 50%;
+		left: 50%;
+		/* bring your own prefixes */
+		transform: translate(-50%, -50%);
+		background-color: black;
+		border-radius: 10px;
+		width: 200px;
+		color: white;
+		}
 /* Icon */
 
 	.icon {
