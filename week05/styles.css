@@ -1,0 +1,176 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0b1 | 201101 
+   NOTE: WORK IN PROGRESS
+   USE WITH CAUTION AND TEST WITH ABANDON */
+ 
+   html, body, div, span, applet, object, iframe,
+   h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+   a, abbr, acronym, address, big, cite, code,
+   del, dfn, em, img, ins, kbd, q, s, samp,
+   small, strike, strong, sub, sup, tt, var,
+   b, u, i, center,
+   dl, dt, dd, ol, ul, li,
+   fieldset, form, label, legend,
+   table, caption, tbody, tfoot, thead, tr, th, td,
+   article, aside, canvas, details, figcaption, figure, 
+   footer, header, hgroup, menu, nav, section, summary,
+   time, mark, audio, video {
+       margin: 0;
+       padding: 0;
+       border: 0;
+       outline: 0;
+       font-size: 100%;
+       font: inherit;
+       vertical-align: baseline;
+       font-family: "Montserrat", "Open Sans", Helvetica, Arial, sans-serif;
+   }
+   /* HTML5 display-role reset for older browsers */
+   article, aside, details, figcaption, figure, 
+   footer, header, hgroup, menu, nav, section {
+       display: block;
+   }
+   body {
+       line-height: 1;
+   }
+   ol, ul {
+       list-style: none;
+   }
+   blockquote, q {
+       quotes: none;
+   }
+   blockquote:before, blockquote:after,
+   q:before, q:after {
+       content: ’’;
+       content: none;
+   }
+    
+   /* remember to highlight inserts somehow! */
+   ins {
+       text-decoration: none;
+   }
+   del {
+       text-decoration: line-through;
+   }
+    
+   table {
+       border-collapse: collapse;
+       border-spacing: 0;
+   }
+
+   /*Styles*/
+
+   .wrapper {
+       margin-left: 20px;
+       margin-top: 20px;
+   }
+
+   .header-wrapper {
+    height: 100%;
+    width: 100%;
+    max-height: 300px;
+    max-width: 1200px;
+   }
+
+   .header-blue-box {
+       background-color: #2114fb;
+       width: 300px;
+       height: 300px;
+       position: relative;
+       float: left;
+   }
+   .econnect {
+       position: relative;
+       padding-top: 160px;
+   }
+   .text {
+       font-weight: bold;
+       padding-left: 70px;
+       padding-top: 20px;
+       font-size: 31.01px;
+   }
+   .econnect h1 {
+       font-size: 150px;
+   }
+
+   .section-rectangles {
+       height: 100px;
+       width: 100%;
+       margin-top: 20px;
+       background-color: black;
+       position: relative;
+       display: block;
+   }
+.footer {
+    margin-top: 40px;
+}
+.footer h1 {
+    font-size: 2em;
+}
+   @media only screen and (max-width:2560px) {
+       .wrapper {
+           max-width: 800px;
+       }
+       .header-blue-box {
+        width: 200px;
+        height: 200px;
+        position: relative;
+        float: left;
+    }
+    .econnect {
+        position: relative;
+        padding-top: 85px;
+    }
+    .econnect h1 {
+        font-size: 140px;
+    }
+   }
+   @media only screen and (max-width:836px) {
+       .econnect h1 {
+           font-size: 100px;
+           padding-top: 29px;
+       }
+       .text {
+           max-width: 700px;
+       }
+       .section-wrapper{
+           max-width: 740px;
+       }
+   }
+
+   @media only screen and (max-width:769px) {
+    .wrapper {
+        max-width: 800px;
+    }
+    .header-blue-box {
+     width: 200px;
+     height: 200px;
+     position: relative;
+     float: left;
+ }
+ .econnect {
+     position: relative;
+     padding-top: 75px;
+ }
+ .econnect h1 {
+     font-size: 100px;
+ }
+ .section-wrapper{
+    max-width: 700px;
+}
+}
+
+#one {
+    background-color: #7af72b;
+}
+#two {
+    background-color: #7ff8ff;
+}
+#three {
+    background-color: #e848fc;
+}
+#four {
+    background-color: #2114fb;
+}
+#five {
+    background-color: #e5440b;
+}
